@@ -1,0 +1,83 @@
+<svg viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pukllaySun" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD200" />
+      <stop offset="100%" stop-color="#FF9000" />
+    </linearGradient>
+    <linearGradient id="pukllayRedTrail" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#FF1E27" />
+      <stop offset="100%" stop-color="#C40018" />
+    </linearGradient>
+    <linearGradient id="pukllayGoldTrail" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#FFD200" />
+      <stop offset="100%" stop-color="#FFA000" />
+    </linearGradient>
+    <filter id="pukllayGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- SOL RADIANTE ANDINO -->
+  <circle cx="330" cy="115" r="75" fill="url(#pukllaySun)" />
+
+  <!-- CORDILLERA DE LOS ANDES (Nevados) -->
+  <g opacity="0.95">
+    <path d="M170 185 L225 105 L280 185 Z" fill="none" stroke="#FFFFFF" stroke-width="14" stroke-linejoin="round" stroke-linecap="round" />
+    <path d="M210 185 L275 75 L345 185" fill="none" stroke="#FFFFFF" stroke-width="16" stroke-linejoin="round" stroke-linecap="round" />
+    <path d="M345 140 L380 160 L415 175" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" />
+  </g>
+
+  <!-- ESTELAS DINÁMICAS (Rojo y Amarillo) -->
+  <path d="M 85 220 C 130 145, 230 200, 290 240 C 210 260, 130 250, 85 220 Z" fill="url(#pukllayRedTrail)" />
+  <path d="M 105 240 C 150 200, 240 245, 300 250 C 230 270, 150 265, 105 240 Z" fill="url(#pukllayRedTrail)" />
+  <path d="M 120 225 C 160 170, 250 215, 305 245 C 235 255, 160 250, 120 225 Z" fill="url(#pukllayGoldTrail)" />
+
+  <!-- SILUETA DEL FUTBOLISTA ATLETA (Blanco) -->
+  <g fill="#FFFFFF" filter="url(#pukllayGlow)">
+    <circle cx="340" cy="118" r="28" />
+    <path d="M 315 150 C 330 140, 360 155, 335 185 L 265 245 C 245 235, 255 210, 280 185 Z" />
+    <path d="M 315 155 C 265 145, 210 160, 205 180 C 205 195, 230 195, 255 175 C 285 165, 305 165, 315 155 Z" />
+    <path d="M 345 160 L 390 190 L 375 198 L 335 175 Z" />
+    <circle cx="385" cy="192" r="7" />
+    <path d="M 270 235 L 235 265 L 195 275 C 200 285, 220 285, 245 275 L 285 245 Z" />
+    <path d="M 285 220 L 305 260 L 280 280 C 265 270, 275 250, 285 220 Z" />
+  </g>
+
+  <!-- BALÓN DE FÚTBOL OFICIAL -->
+  <g transform="translate(355, 230)">
+    <circle cx="38" cy="38" r="36" fill="#FFFFFF" stroke="#0D0F14" stroke-width="3" />
+    <polygon points="38,24 51,33 46,48 30,48 25,33" fill="#1E232F" />
+    <polygon points="38,2 47,15 29,15" fill="#1E232F" />
+    <polygon points="69,20 62,31 73,42" fill="#1E232F" />
+    <polygon points="60,63 50,56 59,71" fill="#1E232F" />
+    <polygon points="17,63 26,56 17,71" fill="#1E232F" />
+    <polygon points="7,20 14,31 3,42" fill="#1E232F" />
+    <line x1="38" y1="24" x2="38" y2="15" stroke="#0D0F14" stroke-width="2.5" />
+    <line x1="51" y1="33" x2="62" y2="31" stroke="#0D0F14" stroke-width="2.5" />
+    <line x1="46" y1="48" x2="50" y2="56" stroke="#0D0F14" stroke-width="2.5" />
+    <line x1="30" y1="48" x2="26" y2="56" stroke="#0D0F14" stroke-width="2.5" />
+    <line x1="25" y1="33" x2="14" y2="31" stroke="#0D0F14" stroke-width="2.5" />
+  </g>
+
+  <!-- TIPOGRAFÍA: PUKLLAY -->
+  <g filter="url(#pukllayGlow)">
+    <text x="250" y="350" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-style="italic" font-size="78px" letter-spacing="-2px">Pukllay</text>
+  </g>
+
+  <!-- TIPOGRAFÍA: SPORT CON ALAS DINÁMICAS -->
+  <g filter="url(#pukllayGlow)">
+    <path d="M 100 375 L 140 370 L 125 385 Z" fill="#FDB813" />
+    <path d="M 115 390 L 140 387 L 130 398 Z" fill="#FDB813" />
+    <text x="250" y="415" text-anchor="middle" fill="#FDB813" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-style="italic" font-size="60px" letter-spacing="1px">Sport</text>
+    <path d="M 400 375 L 360 370 L 375 385 Z" fill="#FDB813" />
+    <path d="M 385 390 L 360 387 L 370 398 Z" fill="#FDB813" />
+  </g>
+
+  <!-- CHAKANA ANDINA (Cruz escalonada incaica) -->
+  <g transform="translate(250, 442) scale(1.1)">
+    <line x1="-80" y1="0" x2="-35" y2="0" stroke="#E52424" stroke-width="4" stroke-linecap="round" />
+    <line x1="35" y1="0" x2="80" y2="0" stroke="#E52424" stroke-width="4" stroke-linecap="round" />
+    <path d="M -5 -22 L 5 -22 L 5 -15 L 12 -15 L 12 -8 L 20 -8 L 20 8 L 12 8 L 12 15 L 5 15 L 5 22 L -5 22 L -5 15 L -12 15 L -12 8 L -20 8 L -20 -8 L -12 -8 L -12 -15 L -5 -15 Z" fill="#D32F2F" stroke="#8A0000" stroke-width="1.5" />
+    <polygon points="0,-7 7,0 0,7 -7,0" fill="#FFC107" />
+  </g>
+</svg>
